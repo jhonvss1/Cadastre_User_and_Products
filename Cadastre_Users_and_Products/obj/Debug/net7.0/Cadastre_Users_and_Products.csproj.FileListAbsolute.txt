@@ -1,0 +1,14 @@
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\bin\Debug\net7.0\Cadastre_Users_and_Products.exe
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\bin\Debug\net7.0\Cadastre_Users_and_Products.deps.json
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\bin\Debug\net7.0\Cadastre_Users_and_Products.runtimeconfig.json
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\bin\Debug\net7.0\Cadastre_Users_and_Products.dll
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\bin\Debug\net7.0\Cadastre_Users_and_Products.pdb
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\obj\Debug\net7.0\Cadastre_Users_and_Products.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\obj\Debug\net7.0\Cadastre_Users_and_Products.AssemblyInfoInputs.cache
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\obj\Debug\net7.0\Cadastre_Users_and_Products.AssemblyInfo.cs
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\obj\Debug\net7.0\Cadastre_Users_and_Products.csproj.CoreCompileInputs.cache
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\obj\Debug\net7.0\Cadastre_Users_and_Products.dll
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\obj\Debug\net7.0\refint\Cadastre_Users_and_Products.dll
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\obj\Debug\net7.0\Cadastre_Users_and_Products.pdb
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\obj\Debug\net7.0\Cadastre_Users_and_Products.genruntimeconfig.cache
+C:\Users\jhons\source\repos\Estudo C#\Cadastre-Users_and_Products\Cadastre_Users_and_Products\Cadastre_Users_and_Products\obj\Debug\net7.0\ref\Cadastre_Users_and_Products.dll

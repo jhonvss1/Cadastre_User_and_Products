@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Cadastre_Users_and_Products/1.0.0": {
+        "runtime": {
+          "Cadastre_Users_and_Products.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cadastre_Users_and_Products/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
