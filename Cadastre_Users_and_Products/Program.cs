@@ -1,6 +1,7 @@
 ﻿
 using Cadastre_User_and_Products;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata;
@@ -17,26 +18,48 @@ public class Project
         // Criando uma Instância da classe User
         User user = new User();
 
-        // Definindo valores para as propriedades do usuário
+        List<User> users = new List<User>();
         int contador = 0;
+        
+        while (contador < 2){
 
-        while (contador < 6){
+            for (int i = 0; i < users.Count; i++)
+            {
+                Console.WriteLine("-------------------------------");
+                Console.WriteLine($"{users[i].Name} Cadastrado com Sucesso");
+                Console.WriteLine("-------------------------------");
 
-        Console.WriteLine("Digite seu nome: ");
-        user.Name = Console.ReadLine();
-        // Validando o Nome do Usuário
-            if (user.Name == null || user.Name.Length <= 1) {
+            }
+
+            Console.WriteLine("Digite seu nome: ");
+            user.Name = Console.ReadLine();
+            // Validando o Nome do Usuário
+            if (user.Name == null || user.Name.Length <= 1) 
+            {
                 Console.WriteLine("Nome Inválido!");
                 break;
             }
 
-
+            // Validando a idade 
             Console.WriteLine("Informe a sua idade: ");
-            string? AgeString = Console.ReadLine();
-            string? ageString = AgeString;
-            user.Agestring = ageString;
+           string? ageString = Console.ReadLine();
+            if (int.TryParse(ageString, out int age))
+            {
+                user.Age = age; // Armazena a idade como inteiro em user.Age
+                if (user.Age < 18)
+                {
+                    Console.WriteLine("Menor de idade. Não cadastrado.");
+                    break;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Certifique-se de que o valor digitado é um número por favor,");
+                break;
+            }
+            
 
-
+            //Validando o E-mail
             Console.WriteLine("Digite seu E-mail: ");
             user.Email = Console.ReadLine();
             if (user.Email == null || user.Email.Length == 0)
@@ -45,21 +68,44 @@ public class Project
                 break;
             }
 
+            //Analisando atividade do Usuário
             Console.WriteLine("Usuário Ativo?");
             user.active = true;
-            if (user.active == false ) 
+            if (user.active == false)
             {
                 Console.WriteLine("Usuário Inativo. Não cadastrado.");
                 break;
             };
-            Console.WriteLine($"{user.active}");
-
             Console.WriteLine($"Seu ID é: {user.Id}");
 
-            Console.WriteLine("-------------------------------");
-            Console.WriteLine("Usuário Cadastrado com sucesso");
-            Console.WriteLine("-------------------------------");
+            
+
+            users.Add(user);
+            // Contagem de pessoas toda vez que todo o código for executado 
+            // Só para quando a quantidade de pessoas pedidas forem excedidas
             contador++;
+
+            // Pegando os usuários com seus índices do contador
+            //for (int i = 0; i <= users.Count; i++)
+            //{
+            //    Console.WriteLine(users[i]);
+            //}
+
+            //for (int i = 0; i < users.Count; i++)
+            //{
+            //    Console.WriteLine("-------------------------------");
+            //    Console.WriteLine($"{users[i].Name} Cadastrado com Sucesso");
+            //    Console.WriteLine("-------------------------------");
+
+            //}
+        }
+
+        for (int i = 0; i < users.Count; i++)
+        {
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine($"{users[i].Name} Cadastrado com Sucesso");
+            Console.WriteLine("-------------------------------");
+
         }
     }
 }
