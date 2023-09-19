@@ -58,7 +58,6 @@ public class Project
                 break;
             }
             
-
             //Validando o E-mail
             Console.WriteLine("Digite seu E-mail: ");
             user.Email = Console.ReadLine();
@@ -85,19 +84,8 @@ public class Project
             // Só para quando a quantidade de pessoas pedidas forem excedidas
             contador++;
 
-            // Pegando os usuários com seus índices do contador
-            //for (int i = 0; i <= users.Count; i++)
-            //{
-            //    Console.WriteLine(users[i]);
-            //}
 
-            //for (int i = 0; i < users.Count; i++)
-            //{
-            //    Console.WriteLine("-------------------------------");
-            //    Console.WriteLine($"{users[i].Name} Cadastrado com Sucesso");
-            //    Console.WriteLine("-------------------------------");
 
-            //}
         }
 
         for (int i = 0; i < users.Count; i++)
@@ -109,3 +97,4 @@ public class Project
         }
     }
 }
+

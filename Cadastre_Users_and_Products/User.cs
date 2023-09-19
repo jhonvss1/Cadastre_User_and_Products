@@ -16,7 +16,7 @@ namespace Cadastre_User_and_Products
         public int Id { get; set; }
         public int Age { get; set; }
         public bool active { get; set; }
-        public string? Agestring { get; internal set; }
+      
 
     }
 }
